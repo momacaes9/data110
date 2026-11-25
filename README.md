@@ -16,6 +16,8 @@ Exploratory analysis of the **Bank Account Fraud** dataset (synthetic bank accou
 2. Download the Bank Account Fraud CSV (Kaggle: "Bank Account Fraud Dataset Suite", NeurIPS 2022) to your Google Drive.
 3. Update `data_path` in the first code cell and run all cells.
 
+To run locally instead of Colab: `pip install -r requirements.txt`, skip the `google.colab` drive-mount cell, and point `data_path` at your local CSV.
+
 The dataset is not stored in this repo (`*.csv` is gitignored).
 
 **Stack:** Python · pandas · seaborn · matplotlib · Google Colab
